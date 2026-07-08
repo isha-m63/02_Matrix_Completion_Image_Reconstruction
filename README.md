@@ -16,11 +16,9 @@ Matrix_Completion_Image_Reconstruction/
 │   └── metrics.py                 #PSNR, SSIM, relative error
 │
 ├── experiments/
-|   ├── 00_visual_exploration.ipynb
 |   ├── 01_admm_convergence_simulated_data.ipynb
 |   ├── 02_admm_convergence_shepp_logan.ipynb
-|   ├── 03_metrics_shepp_logan.ipynb
-|   ├── 04_generalization.ipynb
+|   ├── 03_generalisation_camera_image.ipynb
 │
 └── tests/
     ├── test_svt.py                 #Verify SVT against known closed form
